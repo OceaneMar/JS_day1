@@ -1,3 +1,3 @@
-const main = require('./6_myEvilAge');
+const main = require('./8_myEvilGetNbr');
 
-console.log(main("3"));
+console.log(main("0"));

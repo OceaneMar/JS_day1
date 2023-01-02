@@ -1,9 +1,11 @@
 function main (str) {
     let n = parseInt(str);
-    if (n>=18) {
-        return "Majeur"
+    if(n>0) {
+        return "+"
+    } else if (n<0) {
+        return "-"
     } else {
-        return "Mineur"
+        return "0"
     };
 }
 

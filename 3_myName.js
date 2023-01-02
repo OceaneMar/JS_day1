@@ -1,6 +1,6 @@
 function main () {
     const myName = "Robert";
-    return `My name is ${myName}.`;
+    return myName;
 }
 
 module.exports = main;
