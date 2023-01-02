@@ -1,6 +1,5 @@
-function main () {
-    let myAge = 28;
-    if (myAge>=18) {
+function main (n) {
+    if (n>=18) {
         return "Majeur"
     } else {
         return "Mineur"

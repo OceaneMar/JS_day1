@@ -1,8 +1,7 @@
-function main () {
-    let myNumber = 16;
-    if(myNumber>0) {
+function main (n) {
+    if(n>0) {
         return "+"
-    } else if (myNumber<0) {
+    } else if (n<0) {
         return "-"
     } else {
         return "0"
