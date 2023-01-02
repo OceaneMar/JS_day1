@@ -1,3 +1,3 @@
-const main = require('./2_InputArgs');
+const main = require('./6_myEvilAge');
 
-console.log(main(45, 84));
+console.log(main());
