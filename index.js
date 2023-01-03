@@ -1,3 +1,3 @@
-const main = require('./8_myEvilGetNbr');
+const main = require('./14_myStrnCpy');
 
-console.log(main("0"));
+console.log(main("Hello world"));
