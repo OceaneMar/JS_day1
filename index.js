@@ -1,3 +1,3 @@
-const main = require('./14_myStrnCpy');
+const main = require('./firTree');
 
-console.log(main("Hello world"));
+console.log(main(5));
