@@ -1,3 +1,3 @@
-const main = require('./19_myRemoveTail');
+const main = require('./18_mySortWordArray');
 
-console.log(main([""]));
+console.log(main("Youhou coucou les amis"));

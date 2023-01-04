@@ -1,10 +1,8 @@
-function main2 (arg) { 
+function main (arg) { 
     if (arg === "") return [];
-    return arg.split(" ");
+    return arg.split(" ").sort();
 };
 
-function main(str) {
-    return main(str).sort;
-}
+
 
 module.exports = main;
