@@ -1,3 +1,3 @@
 const main = require('./19_myRemoveTail');
 
-console.log(main([]));
+console.log(main([""]));

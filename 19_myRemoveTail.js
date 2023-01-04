@@ -1,5 +1,5 @@
-function main ([arg1, arg2]) { 
-    let myArray = [arg1, arg2];
+function main (myArray) { 
+    if (myArray.length===0) return [];
     myArray.pop();
     return myArray; 
 };

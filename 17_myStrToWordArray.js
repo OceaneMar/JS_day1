@@ -1,6 +1,6 @@
-function main (string) { 
-    let myArray = string.split(' ');
-    return myArray; 
+function main (arg) { 
+    if (arg === "") return [];
+    return arg.split(" "); 
 };
 
 module.exports = main;
