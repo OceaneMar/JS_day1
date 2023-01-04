@@ -1,3 +1,3 @@
-const main = require('./firTree');
+const main = require('./19_myRemoveTail');
 
-console.log(main(5));
+console.log(main([]));
