@@ -1,3 +1,3 @@
-const main = require('./18_mySortWordArray');
+const main = require('./25_myCreateObject')
 
-console.log(main("Youhou coucou les amis"));
+console.log(main("oce", "mar"));
