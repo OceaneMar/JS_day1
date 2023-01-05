@@ -1,3 +1,5 @@
-const main = require('./26_myUserDescription')
+const main = require('./27_myObjectFilter')
 
-console.log(main("Bla", "Blu", 125));
+console.log(main([{name: "A", surname: "a", age: 12},
+                  {name: "B", surname: "b", age: 30}  
+]));
