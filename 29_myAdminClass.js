@@ -6,7 +6,7 @@ class User {
     }
 
     presentation() {
-        return `Je m'appelle ${this.surname} ${this.name}, j'ai ${this.age}`;
+        return `Je m'appelle ${this.surname} ${this.name}, j'ai ${this.age} ans`;
     }
 }
 
@@ -25,7 +25,7 @@ class Admin extends User {
 let user = new User("Guilian", "Ganster", 22);
 let me = new Admin(user,);
 
-console.log(user.presentation());
-console.log(user.role);
+console.log(me.presentation());
+console.log(me.role);
 
 module.exports = Admin;

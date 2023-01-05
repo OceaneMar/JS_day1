@@ -6,7 +6,7 @@ class User {
     }
 
     presentation() {
-        return `Je m'appelle ${this.surname} ${this.name}, j'ai ${this.age}`;
+        return `Je m'appelle ${this.surname} ${this.name}, j'ai ${this.age} ans`;
     }
 }
 
