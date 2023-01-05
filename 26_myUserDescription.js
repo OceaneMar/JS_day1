@@ -5,7 +5,7 @@ function main (a, b, c) {
         age: c,
         
         description: function () {
-            return `Je m'appelle ${this.surname} ${this.name}, et j'ai ${this.age} ans.`;
+            return `Je m'appelle ${this.surname} ${this.name}, j'ai ${this.age} ans`;
         }
     }
     return myCreateObject.description();
