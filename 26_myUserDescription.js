@@ -1,8 +1,8 @@
-function main (surname, name) {
+function main (a, b, c) {
     let myCreateObject = {
-        surname : "Guilian",
-        name: "Ganster",
-        age: "25",
+        surname : a,
+        name: b,
+        age: c,
     
     description: function () {
         console.log(`Je m'appelle ${surname} et j'ai ${age} ans.`)
