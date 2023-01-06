@@ -1,4 +1,4 @@
-function main (a) {
+function main (a, b, c) {
     let myCreateObject = {
         surname : a,
         name: b,

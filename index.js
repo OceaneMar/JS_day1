@@ -1,3 +1,3 @@
-const main = require('./26_myUserDescription')
+const main = require('./30_myObjectValues')
 
-console.log(main({surname: "a", name: "A", age: 23}));
+console.log(myObjectValues({name: "Ganster", surname: "Guilian", age: 24, presentation: () => {}}));
