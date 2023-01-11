@@ -1,14 +1,6 @@
-function main (a, b, c) {
-    let myCreateObject = {
-        surname : a,
-        name: b,
-        age: c,
-        
-        description: function () {
-            return `Je m'appelle ${this.surname} ${this.name}, j'ai ${this.age} ans`;
-        }
-    }
-    return myCreateObject.description();
-};
-    
-    module.exports = main;
+function main (obj) {
+    let {surname, name, age} = obj;
+    return `Je m'apelle ${surname} ${name}, j'ai ${age} ans`;
+    };
+
+module.exports = main;
